@@ -1,0 +1,28 @@
+.lessons {
+  padding-top: 0;
+}
+.lessons__list {
+  display: flex;
+}
+
+.lessons__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.lessons__item {
+  position: relative;
+  z-index: 1;
+}
+
+.lessons__info {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  bottom: 0;
+
+  background-color: $bgcolor-lessons-info;
+  color: $white;
+}

@@ -1,0 +1,106 @@
+.footer {
+  align-items: baseline;
+  padding: 60px 0;
+
+  background-color: $bgcolor-third;
+}
+.footer-container {
+  display: flex;
+}
+.adress {
+  font-style: normal;
+}
+
+.adress__map {
+  display: block;
+  margin-top: 20px;
+
+  color: $white;
+}
+
+.adress__online {
+  display: block;
+  margin-top: 9px;
+
+  color: $color_contacts;
+}
+
+.footer__wrapper-second {
+  margin-left: 70px;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+
+  color: $white;
+
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sochial-list__footer-icon {
+  fill: $white;
+}
+
+.sochial-list__footer-item {
+  background-color: $bgcolor-icon-footer;
+}
+
+.sochial-list__footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer__wrapper-third {
+  margin-left: 93px;
+}
+.footer__label {
+  position: relative;
+}
+.footer__input {
+  width: 358px;
+  height: 50px;
+  padding: 16px 15px;
+
+  background-color: $bgcolor-third;
+  color: $white;
+
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+.footer__input:focus {
+  border: 1px solid $white;
+}
+.footer__mail-text {
+  position: absolute;
+  left: 16px;
+  top: -3px;
+
+  color: $color_contacts;
+}
+
+.footer__input:focus + .footer__mail-text,
+.footer__input:not(:placeholder-shown) + .footer__mail-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.footer__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.footer__icon-send {
+  margin-left: 10px;
+
+  fill: $white;
+}

@@ -1,0 +1,37 @@
+.feature__list {
+  display: flex;
+}
+
+.icon__feature {
+  width: 70px;
+  height: 70px;
+}
+
+.feature__icon-wrapper {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+
+  background-color: $bgcolor-button;
+
+  border-radius: 4px;
+}
+.feature__icon {
+  width: 70px;
+  height: 70px;
+}
+.feature__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.feature__item-title {
+  color: $color_primary-text;
+
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.feature__info {
+  margin-top: 10px;
+
+  color: $color_secondary-text;
+}
